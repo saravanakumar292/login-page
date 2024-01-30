@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="ISO-8859-1">
+<title>Insert title here</title>
+<style>
+	input[type=text]{
+		width:200px;
+		padding: 8px 8px;
+		border-radius: 5px;
+		
+	}
+	input[type=tel]{
+		width:200px;
+		padding: 8px 8px;
+		border-radius: 5px;
+		
+		
+	}
+	body{
+		
+		background-image:url("https://t4.ftcdn.net/jpg/01/19/11/55/360_F_119115529_mEnw3lGpLdlDkfLgRcVSbFRuVl6sMDty.jpg");
+		background-size: 100%;
+		background-repeat: no-repeat;
+		font-size: 23px;
+	}
+	h1{
+		text-align: center;
+		
+	}
+	.ma{
+	
+	color: white
+	
+	}
+	center{
+		margin-top: 13%;
+		border: 1px solid white;
+		width: 500px;
+		margin-left: 33%;
+		border-radius: 10px;
+	}
+	button{
+		padding: 5px;
+		
+		margin: 10px;
+		background-color: white;
+		color:black;
+	}
+	button:hover{
+		
+		background-color: orangered;
+	}
+	button:active{
+		background-color: green;
+	}
+	button.sim{
+		border-radius: 20%;
+	
+		
+	}	
+</style>
+</head>
+<body>
+	<center>
+	<div class="ma">
+		<form action="login" method="post">
+		<h1>LOG IN ACCOUNT</h1>
+		
+		<label for="number">PHONE NUMBER</label><br>
+		<input type="tel" id="number" name="number" required><br>
+		
+		<label for="password">PASSWORD</label><br>
+		<input type="tel" id="password" name="password" required><br>
+		
+		<button class="sim" type="submit">SIGN IN</button><br>
+		
+		<a href="log.html">Craete a new account</a>
+	</form>
+</div>
+</center>
+</body>
+</html>
